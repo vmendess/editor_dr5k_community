@@ -896,10 +896,6 @@ video {
   flex-direction: column;
 }
 
-.flex-wrap{
-  flex-wrap: wrap;
-}
-
 .items-start{
   align-items: flex-start;
 }
@@ -926,10 +922,6 @@ video {
 
 .gap-4{
   gap: 1rem;
-}
-
-.gap-6{
-  gap: 1.5rem;
 }
 
 .gap-8{
@@ -1386,6 +1378,11 @@ video {
      object-fit: cover;
 }
 
+.object-center{
+  -o-object-position: center;
+     object-position: center;
+}
+
 .p-2{
   padding: 0.5rem;
 }
@@ -1689,10 +1686,6 @@ video {
 
 .opacity-50{
   opacity: 0.5;
-}
-
-.opacity-60{
-  opacity: 0.6;
 }
 
 .mix-blend-overlay{
